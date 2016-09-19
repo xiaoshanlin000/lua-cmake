@@ -3,32 +3,7 @@ set(LUA_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 set(LUA_SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR})
 include_directories(${LUA_INCLUDE_DIR})
 set(LUA_INCLUDE_FILES
-        lapi.h
-        lauxlib.h
-        lcode.h
-        lctype.h
-        ldebug.h
-        ldo.h
-        lfunc.h
-        lgc.h
-        llex.h
-        llimits.h
-        lmem.h
-        lobject.h
-        lopcodes.h
-        lparser.h
-        lprefix.h
-        lstate.h
-        lstring.h
-        ltable.h
-        ltm.h
-        lua.h
-        lua.hpp
-        luaconf.h
-        lualib.h
-        lundump.h
-        lvm.h
-        lzio.h
+        lua.h luaconf.h lualib.h lauxlib.h lua.hpp
         )
 
 set(LUA_SRC_FILES
